@@ -36,21 +36,33 @@ const questions = [
         choices:["MIT","Apache"]
     }
     ,{
-        type:"list",
+        type:"input",
         name:"features",
         message:"What features are included in this project?",
     }
     ,{
-        type:"list",
+        type:"input",
         name:"tests",
         message:"What tests (if any) are available? If none, please add No tests available.",
+    }
+    ,{
+        type:"input",
+        name:"credit",
+        message:"Please add your Github username here to be added to the credits section.",
+    }
+    ,{
+        type:"input",
+        name:"email",
+        message:"Add your email address here to be added to the credits section.",
     }
 
 
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeFileSync(filenName, data);
+}
 
 // TODO: Create a function to initialize app
 function init() {
