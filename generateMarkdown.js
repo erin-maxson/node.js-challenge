@@ -1,25 +1,50 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  if(license==="Apache"){
+  if(license === "Apache"){
     return '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'
   }
   else if(license==="MIT"){
     return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'
   }
 
-  else if() {
-    return String();
+  else {
+    return '';
   }
 }
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+  if (license === "Apache"){
+    return 'https://opensource.org/licenses/Apache-2.0';
+  }
+
+  if (license === "MIT"){
+    return 'https://opensource.org/licenses/MIT';
+  }
+
+  else {
+    return ''
+  }
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+  if (license === '') {
+    return ''
+  }
+
+  else {
+    const link = renderLicenseLink(license)
+    const badge = renderLicenseBadge(license)
+
+    return `[![License: ${license}](${badge})](${link})`
+  }
+}
+
+
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
@@ -29,33 +54,35 @@ function generateMarkdown(data) {
   ${data.description} 
   
   ## Table of Contents (Optional)
-  ${renderTableOfContents(data.table)}
+  ${data.table}
   
   ## Installation
   
   ${data.installation}
    
   ## Usage
-  ${renderUsage(data.usage)}
+  ${data.usage}
   
   ## Credits
-  ${renderCredits(data.credits)}
+  ${data.credits}
   
   ## License
   
- ${renderLicenseBadge(data.license)}
+ ${data.license}
   
   ## Features
-  ${renderFeatures(data.features)}
+  ${data.features}
   
   ## How to Contribute
-  ${renderContributions(data.contributions)}
+  ${data.contributions}
+
+  By default, we've added a Contributor Covenant, 
   
   ## Tests
-  ${renderTests(data.tests)}
+  ${data.tests}
 
   ## Have Questions?
-  ${renderGithub(data.github)}, ${renderEmail(data.email)}
+  - Contact the contributor at [${data.github}]/(github.com/${data.github}) or via email at <${data.email}>
 `;
 }
 
