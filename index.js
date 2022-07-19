@@ -16,6 +16,11 @@ const questions = [
     },
     {
         type:"input",
+        name:"table",
+        message:"What do you want to add to your table of contents? Add all that apply. (Ex: Installation, usage, Credits, License)"
+    },
+    {
+        type:"input",
         name:"installation",
         message:"How do you install your project?"
     }
@@ -27,7 +32,7 @@ const questions = [
     ,{
         type:"input",
         name:"credits",
-        message:"What credits do you want to give on this project?",
+        message:"What credit do you want to give on this project (Ex: You and your team or just you)?",
     }
     ,{
         type:"list",
@@ -39,6 +44,11 @@ const questions = [
         type:"input",
         name:"features",
         message:"What features are included in this project?",
+    }
+    ,{
+        type:"input",
+        name:"contributions",
+        message:"How do you want users to contribute to this project?",
     }
     ,{
         type:"input",
