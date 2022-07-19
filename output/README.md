@@ -1,33 +1,36 @@
-# alfkdjslfkj
+# test
 
   ## Description
-  afslkdsjflkdsjfj 
+  test 
   
   ## Table of Contents (Optional)
-  asflkjsdlkfjdsklfj
+  test
   
   ## Installation
   
-  asdflksjdflkjsdf
+  test
    
   ## Usage
-  asflkjslkfjlkdsf
+  test
   
   ## Credits
-  saflkjslkfjlskf
+  test
   
   ## License
   
  MIT
   
   ## Features
-  asldfkjsdlkfjs
+  test
   
   ## How to Contribute
-  asfdlkjskldfj
-  
+  test
+
+  By default, we've added a Contributor Covenant, but feel free to update or add more information on how to contribute to this project.
+  [Contributor Covenant](https://www.contributor-covenant.org/)  
+
   ## Tests
-  asflksjdlkfjsd
+  test
 
   ## Have Questions?
-  asflskjlkdsjf, asflkjslkfj
+  - Contact the contributor at [test]/(https://www.github.com/test) or via email at <erin@cohatch.com>
