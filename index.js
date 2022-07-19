@@ -47,13 +47,13 @@ const questions = [
     }
     ,{
         type:"input",
-        name:"credit",
-        message:"Please add your Github username here to be added to the credits section.",
+        name:"github",
+        message:"Please add your Github username here so users can contact you with any questions.",
     }
     ,{
         type:"input",
         name:"email",
-        message:"Add your email address here to be added to the credits section.",
+        message:"Add your email address here so users can contact you with any questions.",
     }
 
 
