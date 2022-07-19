@@ -1,36 +1,38 @@
-# test
+# Professional README generator
 
   ## Description
-  test 
+  This project was created to make readme generation easier. 
   
   ## Table of Contents (Optional)
-  test
+  Installation, Usage, Credits, License
   
   ## Installation
   
-  test
+  Open the files up in VSC, right click on index.js to open in an integrated terminal, use bash command node index.js to start filling in  the readme geenerator
    
   ## Usage
-  test
+  Use this to create quick readmes for your next project
   
   ## Credits
-  test
+  Erin
   
   ## License
   
- MIT
+ [![License: MIT]((https://img.shields.io/badge/License-MIT-yellow.svg))](https://opensource.org/licenses/MIT)
   
   ## Features
-  test
+  Readme generator using node.js
+
+  [![Video Recording](https://www.loom.com/share/821344a5d3b844f4a124caca36388cfe)]
   
   ## How to Contribute
-  test
+  See default contribution convenant
 
   By default, we've added a Contributor Covenant, but feel free to update or add more information on how to contribute to this project.
   [Contributor Covenant](https://www.contributor-covenant.org/)  
 
   ## Tests
-  test
+  No tests available
 
   ## Have Questions?
-  - Contact the contributor at [test]/(https://www.github.com/test) or via email at <erin@cohatch.com>
+  - Contact the contributor at [erin-maxson]/(https://www.github.com/erin-maxson) or via email at <erin@cohatch.com>
